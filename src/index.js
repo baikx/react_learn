@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Game from './Game'
+// import Game from './chessApp'
+import Home from './todoApp/Home'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Game />
+    {/* <Game /> */}
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
